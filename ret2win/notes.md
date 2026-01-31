@@ -1,8 +1,6 @@
-# ROP Emporium Notes
+# ret2win
 
-## ret2win (Date: 2026-01-30)
-
-### What I did:
+### What I did
 
 - Got my environment setup in macOSX and ssh'd into my utm ubuntu server
 - Found buffer size from challenge description (32 bytes)
@@ -37,5 +35,3 @@ When you ROP, there's no push, so add manual alignment.
 
 Found ret gadget with: `ROPgadget --binary ret2win | grep ": ret$"`
 Address: 0x40053e
-
---
