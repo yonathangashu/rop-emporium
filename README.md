@@ -6,9 +6,9 @@ My solutions and notes while working through [ROP Emporium](https://ropemporium.
 
 - [x] ret2win - basic buffer overflow + return address overwrite
 - [x] split - simple ROP chain, calling system()
-- [ ] callme
-- [ ] write4
-- [ ] badchars
+- [x] callme - make consecutive calls to imported functions
+- [x] write4 - build ROP chain using arbitrary write to memory
+- [x] badchars - arbitrary write challenge, this time with "bad characters"
 - [ ] fluff
 - [ ] pivot
 - [ ] ret2csu
