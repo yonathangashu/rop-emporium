@@ -9,9 +9,9 @@ My solutions and notes while working through [ROP Emporium](https://ropemporium.
 - [x] callme - make consecutive calls to imported functions
 - [x] write4 - build ROP chain using arbitrary write to memory
 - [x] badchars - arbitrary write challenge, this time with "bad characters"
-- [ ] fluff
-- [ ] pivot
-- [ ] ret2csu
+- [x] fluff - another write challenge, this time with much more complex gadgets
+- [x] pivot - limited stack space, pivot the stack to a second ROP chain
+- [x] ret2csu - use universal ROP gadgets in lib_csu to populate argument regs
 
 ## Structure
 
